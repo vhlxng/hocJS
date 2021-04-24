@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gio hang</title>
+</head>
+<body>
+    <script>
+        let products = [
+        {
+            name: 'ao',
+            id: 1,
+            price: 50
+        },
+        {
+            name: 'quan',
+            id: 2,
+            price: 60
+        },
+        {
+            name: 'mu',
+            id: 3,
+            price: 30
+        },
+        {
+            name: 'tui',
+            id: 4,
+            price: 70
+        },
+];
+
+let carts = [
+{
+    soLuongMua: 2,
+    id: 3,
+},
+{
+    soLuongMua: 5,
+    id: 1,
+},
+];
+let thanhTien = carts.reduce(function(total, cart) {
+    let findedProduct = products.find(function(value){
+        return value.id == cart.id;
+    })
+    return total + cart.soLuongMua * findedProduct.price;
+}, 0)
+    console.log(thanhTien);
+
+
+let num = [2,3,5,7,8];
+let tich = num.reduce(function(a, b){
+    return a*b;
+})
+console.log(tich);
+
+// let y=1;
+// num.forEach(function(x){
+//     y*=x;
+// })
+// console.log(y);
+
+let a = [1,2,3,4];
+console.log(a);
+let b = Array.from(a);//tạo 1 array mới 
+// let b = [...a]// tương tự
+b[0] = 10 
+console.log(a);
+
+
+
+
+let x = {
+    id: 100
+}
+
+let y = Object.assign({}, x);//
+y.id = 1000;
+console.log(y);
+
+</script>
+</body>
+</html>

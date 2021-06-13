@@ -1,0 +1,27 @@
+/* tag name */
+h5 {
+    color : blue;
+    font-size: 24px;
+}
+p {
+    color : red;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+div {
+    color: aqua;
+}
+
+/* class name : có thể dùng nhiều lần*/
+.mauDo{
+    color: red;
+}
+/* id name : chỉ dùng 1 lần duy nhất*/
+#ok {
+    color: lightgreen;
+}
+
+
+

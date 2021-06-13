@@ -1,0 +1,41 @@
+#cha {
+  height: 300px;
+  margin: 70px 70px 0;
+  background-color: lightcoral;
+  border-radius: 20px;
+  position: relative;
+}
+
+#con {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: lightgreen;
+  bottom: -100px;
+  left: 172px;
+  border-radius: 20px;
+}
+
+#con2 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: lightskyblue;
+  bottom: -100px;
+  left: 510px;
+  border-radius: 20px;
+}
+/*
+position:
+    static: mặc định, các phần tử ở đúng vị trí
+    relative: vị trí tuyệt đói(mốc) để các phần tử khác lấy mốc theo và khi dùng thì vị trí của nó được giữ nguyên
+*/
+#con3 {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color: lightslategrey;
+    bottom: -100px;
+    right: 172px;
+    border-radius: 20px;
+  }

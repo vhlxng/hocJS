@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+  </head>
+  <body>
+    <h1>Links</h1>
+    <p>This example is about links and <a>images</a>.</p>
+    <!-- (<a></a> là phần tử mỏ neo) -->
+
+    <p>This example is about links and <a href="images.html">images</a>.</p>
+    <!-- (thuộc tính href gán link của phần tử mỏ neo khi người dùng nhấp vào nó, 
+    thuộc tính href nằm bên trong thẻ mở) -->
+
+    Đây là <a href="https://www.facebook.com/">facebook</a>.
+
+    <p>This particular page is about links! There are three kinds of links:</p>
+
+    <ul>
+      <!-- Add <li> elements here -->
+      <li>
+        Absolute links, like to
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >Mozilla Developer Network</a
+        >, which is a very good resource for web developers.
+      </li>
+      <!-- (liên kết tuyệt đối) -->
+      <!-- (thuộc tính target='_blank' để yêu cầu trình duyệt mở liên kết trong một tab mới) -->
+      
+      <li>
+        Relative links, like to our <a href="misc/extras.html">extras page</a>.
+      </li>
+      <!-- (liên kết tương đối) -->
+
+      <!-- This won't work for our local HTML files -->
+      <li>
+        Root-relative links, like to the <a href="/">home page</a> of our
+        website, but those aren't useful to us right now.
+      </li>
+      <!-- (thư mục gốc) -->
+    </ul>
+  </body>
+</html>

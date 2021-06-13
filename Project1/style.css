@@ -1,9 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 *{
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
-h2 {
+.title1 {
     font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    background: #DCBA64D9;
+    padding: 20px;
+}
+.tieude {
+    font-family: 'Kanit';
+    font-size: 21px;
+    padding-left: 18px;
+}
+.motkhoi {
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 20px #bebebe,
+                -10px -10px 20px #ffffff;
+}
+.ttphu {
+    padding-left: 18px;
+}
+.ttphu a{
+    text-decoration: none;
+    color: gray;
+}
+
+.sukien {
+    width: 1130px;
+    margin: auto;
+}
+.btn{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 550px;
+    
+}
+.btn:hover{
+    background-color: rgb(199, 144, 41);
+    color: rgb(202, 177, 31);
+    cursor: pointer;
+}
+.title2{
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    background: whitesmoke;
+    padding: 20px;
+}
+.a1{
+    float: left;
+    margin-bottom: 25px;
+}
+.a2 a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.a2{
+    padding-left: 30px ;
+    padding-top: 10px;
+}
+.but{
+    background-color:#DCBA64D9 ;
 }
